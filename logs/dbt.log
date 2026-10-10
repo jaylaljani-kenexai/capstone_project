@@ -1,0 +1,32 @@
+[0m09:22:50.493376 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211BD7E4C80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211BE9FF230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211BB688A70>]}
+
+
+============================== 09:22:50.503854 | 479419e7-498d-447d-985b-d06771c4807f ==============================
+[0m09:22:50.503854 [info ] [MainThread]: Running with dbt=1.11.11
+[0m09:22:50.504850 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Jay\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt init capstone_project', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m09:22:50.578760 [debug] [MainThread]: Starter project path: C:\Users\Jay\AppData\Local\Programs\Python\Python312\Lib\site-packages\dbt\include\starter_project
+[0m09:22:50.622849 [info ] [MainThread]: 
+Your new dbt project "capstone_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m09:22:50.622849 [info ] [MainThread]: Setting up your profile.
+[0m09:24:00.596692 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m09:24:00.597691 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m09:24:00.597691 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m09:24:44.803501 [info ] [MainThread]: Profile capstone_project written to C:\Users\Jay\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m09:24:44.816565 [debug] [MainThread]: Command `dbt init` succeeded at 09:24:44.814723 after 114.70 seconds
+[0m09:24:44.819307 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211D0391700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211D0A04920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211BB942F60>]}
+[0m09:24:44.820967 [debug] [MainThread]: Flushing usage events
+[0m09:24:46.401567 [debug] [MainThread]: An error was encountered while trying to flush usage events

@@ -1,0 +1,7 @@
+sources:
+  - name : intermediate
+    database : CRICKET
+    schema : intermediate
+    tables:
+      - name : cln_cricket
+        identifier : int_cricket

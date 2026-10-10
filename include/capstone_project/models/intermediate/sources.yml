@@ -1,0 +1,7 @@
+sources:
+  - name : raw_layer
+    database : CRICKET
+    schema : RAW
+    tables:
+      - name : RAW_DATA
+        identifier : RAW_DATA

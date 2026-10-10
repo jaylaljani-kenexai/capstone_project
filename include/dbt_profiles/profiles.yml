@@ -1,0 +1,154 @@
+Sleekdata:
+  outputs:
+    dev:
+      account: QXUKQBA-FYB97530
+      database: SLEEKMART_OMS
+      password: Jay@laljani2901
+      role: Accountadmin
+      schema: L3_CONSUMPTION
+      threads: 1
+      type: snowflake
+      user: JAY
+      warehouse: COMPUTE_WH
+  target: dev
+capstone_project:
+  outputs:
+    dev:
+      account: CCISFTZ-CAB53181
+      database: CRICKET
+      password: Jay@laljani2901
+      role: ACCOUNTADMIN
+      schema: RAW
+      threads: 1
+      type: snowflake
+      user: JAY
+      warehouse: COMPUTE_WH
+  target: dev
+dbt_captone_project:
+  outputs:
+    dev:
+      account: JCDZVRR-EZB28441
+      database: BANKING
+      password: Jay@laljani2901
+      role: accountadmin
+      schema: public
+      threads: 1
+      type: snowflake
+      user: JAY
+      warehouse: compute_wh
+  target: dev
+dbt_incremental_demo:
+  outputs:
+    dev:
+      account: JCDZVRR-EZB28441
+      database: DBT_INCREMENTAL_DEMO
+      password: Jay@laljani2901
+      role: accountadmin
+      schema: public
+      threads: 1
+      type: snowflake
+      user: JAY
+      warehouse: compute_wh
+  target: dev
+dbt_pracctice:
+  outputs:
+    dev:
+      account: CCISFTZ-CAB53181
+      database: DBT_PRACTICE_DB
+      password: Jay@laljani2901
+      schema: RAW_ORDERS
+      threads: 16
+      type: snowflake
+      user: JAY
+      warehouse: COMPUTE_WH
+  target: dev
+jaffle_shop:
+  outputs:
+    dev:
+      account: PAVOAID-DUB57093
+      database: DBT_PRACTICE_DB
+      password: Jay@laljani2901
+      schema: RAW_ORDERS
+      threads: 16
+      type: snowflake
+      user: JAY
+      warehouse: COMPUTE_WH
+  target: dev
+my_project:
+  outputs:
+    dev:
+      database: DDriveTestDB
+      host: host.docker.internal
+      password: Jay@laljani29
+      port: 1433
+      threads: 1
+      type: sqlserver
+      user: sa
+  target: dev
+practice:
+  outputs:
+    dev:
+      account: CCISFTZ-CAB53181
+      database: AD
+      password: Jay@laljani2901
+      role: ACCOUNTADMIN
+      schema: PUBLIC
+      threads: 1
+      type: snowflake
+      user: JAY
+      warehouse: COMPUTE_WH
+  target: dev
+ridegrid_warehouse:
+  outputs:
+    dev:
+      account: CCISFTZ-CAB53181
+      database: RIDEGRID_DEV
+      password: Jay@laljani2901
+      role: ACCOUNTADMIN
+      schema: STAGING
+      threads: 16
+      type: snowflake
+      user: JAY
+      warehouse: RIDEGRID_WH
+  target: dev
+snowflake_connection:
+  outputs:
+    dev:
+      account: JCDZVRR-EZB28441
+      database: DBT_INCREMENTAL_DEMO
+      password: Jay@laljani2901
+      role: accountadmin
+      schema: public
+      threads: 1
+      type: snowflake
+      user: JAY
+      warehouse: compute_wh
+  target: dev
+ss:
+  outputs:
+    dev:
+      database: DDriveTestDB
+      driver: ODBC Driver 17 for SQL Server
+      encrypt: true
+      host: localhost
+      password: Jay@laljani29
+      port: 1433
+      schema: dbo
+      threads: 1
+      trust_cert: true
+      type: sqlserver
+      user: sa
+  target: dev
+streamcart:
+  outputs:
+    dev:
+      account: QXUKQBA-FYB97530
+      database: STREAMCART
+      password: Jay@laljani2901
+      role: ACCOUNTADMIN
+      schema: RAW_STREAMCART
+      threads: 1
+      type: snowflake
+      user: JAY
+      warehouse: COMPUTE_WH
+  target: dev
